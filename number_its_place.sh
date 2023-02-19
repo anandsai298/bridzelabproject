@@ -1,0 +1,9 @@
+read -p "enter number" num
+th=$(( $num / 1000 ))
+echo  "$th is thousands place"
+hun=$(( $num / 100 ))
+echo  "$hun is hundreds place"
+ten=$(( $num / 10 ))
+echo  "$ten is tens place"
+unit=$(( $num / 1 ))
+echo  "$unit is units place"
